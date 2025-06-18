@@ -4,6 +4,8 @@
 
 * 操作系统： Ubuntu 22.04.5 LTS
 * 仓库文件结构:
+
+<pre>
 .
 ├── arduino-cli  #arduino-cli 工具二进制文件 
 ├── direct_speech_to_text.py # 语音转文本测试代码
@@ -15,7 +17,7 @@
 ├── test_micphone.py  # 测试麦克风脚本
 ├── test_ollama_api.py # 测试本地Ollama API脚本
 └── test_vosk.py      # 测试vosk功能脚本 
-
+</pre>
 ## 执行脚本前准备
 
 * 1. 安装软件包依赖
@@ -68,7 +70,7 @@ arduino-cli compile -b arduino:avr:leonardo -p /dev/ttyACM0 --upload
 ```python
 python godsaylight.py 
 ```
-* 10. 如果喜欢就给个start 
+* 10. 如果喜欢就给个star~
 
 
 
